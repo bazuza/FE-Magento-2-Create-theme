@@ -1,4 +1,4 @@
-[![picture alt](https://i.imgur.com/K44huME.png "Main page")](https://github.com/bazuza/FE-Magento-2-Guide)
+[![picture alt](https://raw.githubusercontent.com/bazuza/FE-Magento-2-Guide/master/logo-m2-fe.png "Main page")](https://github.com/bazuza/FE-Magento-2-Guide)
 
 ## Create a storefront theme: walkthrough
 The high-level steps required to add a new theme in the Magento system are the following:
