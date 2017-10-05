@@ -126,9 +126,9 @@ app/design/frontend/<Vendor>/
 │   ├── theme.xml
 │   ├── composer.json
 ```
-**Note**
+:exclamation: **Note**
 
-:exclamation: _Copy the less files from the parent theme and paste into your theme. 
+> _Copy the less files from the parent theme and paste into your theme. 
 And create in you theme `Magento_Theme => web => css => source => _module.less` directories / less file and copy styles for parent theme._
 
 
