@@ -1,3 +1,5 @@
+[![picture alt](https://i.imgur.com/K44huME.png "Title is optional")](https://github.com/bazuza/FE-Magento-2-Guide)
+
 ## Create a storefront theme: walkthrough
 The high-level steps required to add a new theme in the Magento system are the following:
 
