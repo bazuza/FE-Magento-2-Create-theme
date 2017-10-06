@@ -20,7 +20,7 @@ app/design/frontend/
 After you create a directory for your theme, you must create `theme.xml` containing at least the theme name and the parent theme name (if the theme inherits from one). Optionally you can specify where the theme preview image is stored.
 1. Add or copy from an existing `theme.xml` to your theme directory `app/design/frontend/<Vendor>/<theme>`
 2. Configure it using the following example:
-```
+```xml
 <theme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/theme.xsd">
      <title>New theme</title> <!-- your theme's name -->
      <parent>Magento/blank</parent> <!-- the parent theme, in case your theme inherits from an existing theme -->
@@ -35,7 +35,7 @@ Magento default themes are distributed as [Composer](https://getcomposer.org/) p
 To distribute your theme as a package, add a `composer.json` file to the theme directory and register the package on a packaging server.
 
 Example of a theme `composer.json`:
-```
+```json
 {
     "name": "<Vendore>/<theme>",
     "description": "N/A",
@@ -60,7 +60,7 @@ Example of a theme `composer.json`:
 
 ### 4. Add `registration.php`
 To register your theme in the system, in your theme directory add a registration.php file with the following content:
-```
+```php
 <?php
 /**
  * Copyright © 2015 Magento. All rights reserved.
@@ -81,7 +81,7 @@ If the product image sizes of your theme differ from those of the parent theme, 
 
 1. Create the `etc` directory in your theme folder
 2. Copy `view.xml` from the etc directory of an existing theme to your theme’s `etc` directory.
-```
+```xml
 <?xml version="1.0"?>
 <view xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/view.xsd">
     <media>
