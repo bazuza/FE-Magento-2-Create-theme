@@ -129,7 +129,7 @@ app/design/frontend/<Vendor>/
 :exclamation: **Note**
 
 > _Copy the less files from the parent theme and paste into your theme. 
-And create in you theme `Magento_Theme => web => css => source => _module.less` directories / less file and copy styles for parent theme._
+And create in your theme `Magento_Theme => web => css => source => _module.less` directories / less file and copy styles for parent theme._
 
 
 ### 6. Theme registration
