@@ -138,5 +138,9 @@ your theme gets registered and added to the database.
 
 `Content => Configuration => Edit Theme Name (Main Website Store) => select your_theme`
 
+## Links:
+* [Styles](https://github.com/bazuza/FE-Magento-2-Styles)
+* [Java Script](https://github.com/bazuza/FE-Magento-2-Java-Script)
+
 ## Resource:
 * [Create a new storefront theme](http://devdocs.magento.com/guides/v2.2/frontend-dev-guide/themes/theme-create.html)
